@@ -93,7 +93,30 @@ const array2 = [2, 3, 4];
 const array3 = [10, 11, 12];
 console.log([999, ...array2, 90, ...array3, 10000]);
 
+//map, filter, find, some, every, includes, indexOf, findIndex
 
+const personArray = [
+    {
+        name: 'Person 1',
+        age: 30,
+        country: "USA",
+    },
+    {
+        name: 'Person 2',
+        age: 45,
+        country: "RUSSIA",
+    },
+    {
+        name: 'Person 3',
+        age: 28,
+        country: "INDIA",
+    },
+];
 
+let getAllNames = personsArray.map((singlePerson, index) => {
+    console.log(singlePerson, index);
+    return `${singlePerson.name} age i ${singlePerson.age}`;
+});
+console.log(getAllNames);
 
 
