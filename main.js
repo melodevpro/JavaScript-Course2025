@@ -1,3 +1,6 @@
+console.log("Hello World");
+
+
 // Logical AND (&&) and Logical OR(||)
 let a = true;
 let b = true;

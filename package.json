@@ -1,0 +1,11 @@
+{
+  "name": "javascript-course2025",
+  "version": "1.0.0",
+  "description": "Estes es mi primer proyecto de javascript con nodejs en OpenBootcamp",
+  "main": "main.js",
+  "scripts": {
+    "start": "node main.js"
+  },
+  "author": "Melo Duarte",
+  "license": "ISC"
+}
